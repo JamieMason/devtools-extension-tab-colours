@@ -1,0 +1,10 @@
+::shadow #tab-layers { background-color: #b5bd68; }
+::shadow #tab-profiles { background-color: #8abeb7; }
+::shadow #tab-resources { background-color:#f2777a;  }
+::shadow #tab-security { background-color: #f99157; }
+::shadow #tab-audits { background-color: #ffcc66; }
+::shadow #tab-timeline { background-color: #99cc99; }
+::shadow #tab-network { background-color: #66cccc; }
+::shadow #tab-sources { background-color: #6699cc; }
+::shadow #tab-elements { background-color: #cc99cc; }
+::shadow #tab-console { background-color: #d27b53; }
