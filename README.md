@@ -8,6 +8,12 @@ Working Prototype
 
 ## Installation
 
+### Chrome Web Store
+
+[DevTools Tab Colours](https://chrome.google.com/webstore/detail/devtools-tab-colours/kbamdmidcmemijemnipjedngmbfdmiff?hl=en-GB&gl=GB)
+
+### Manual
+
 ```
 git clone https://github.com/JamieMason/devtools-extension-tab-colours.git
 ```
