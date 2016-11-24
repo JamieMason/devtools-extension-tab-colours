@@ -1,5 +1,7 @@
 # devtools-extension-tab-colours
 
+[![Analytics](https://ga-beacon.appspot.com/UA-45466560-5/devtools-extension-tab-colours?flat&useReferer)](https://github.com/igrigorik/ga-beacon)
+
 Adds colours to the tabs in Chrome DevTools.
 
 ## Project Status
