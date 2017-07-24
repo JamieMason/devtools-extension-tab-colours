@@ -2,13 +2,17 @@
 
 [![Analytics](https://ga-beacon.appspot.com/UA-45466560-5/devtools-extension-tab-colours?flat&useReferer)](https://github.com/igrigorik/ga-beacon)
 
-Adds colours to the tabs in Chrome DevTools.
-
-## Project Status
-
-Working Prototype
+A simple extension to add colours to the tabs in Chrome DevTools.
 
 ## Installation
+
+"Developer Tools experiments" will need to be enabled in order to use this extension;
+
+1. Go to [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments) and enable "Developer Tools experiments".
+1. Open DevTools and go to "Settings".
+1. Go to "Experiments" tab.
+1. Check "Allow custom UI themes".
+1. Reload DevTools.
 
 ### Chrome Web Store
 
