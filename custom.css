@@ -1,34 +1,42 @@
 /*
  * Material Colours
  * ----------------
+ * Teal          600: #00897b   300: #4db6ac  200: #80cbc4  100: #b2dfdb;
  * Red           600: #e53935   300: #e57373  200: #ef9a9a  100: #ffcdd2;
+ * Yellow        600: #fdd835   300: #fff176  200: #fff59d  100: #fff9c4;
+ * Orange        600: #fb8c00   300: #ffb74d  200: #ffcc80  100: #ffe0b2;
+ * Grey          600: #757575   300: #e0e0e0  200: #eeeeee  100: #f5f5f5;
+ * Brown         600: #6d4c41   300: #a1887f  200: #bcaaa4  100: #d7ccc8;
  * Pink          600: #d81b60   300: #f06292  200: #f48fb1  100: #f8bbd0;
+ * Amber         600: #ffb300   300: #ffd54f  200: #ffe082  100: #ffecb3;
+ * Deep Orange   600: #f4511e   300: #ff8a65  200: #ffab91  100: #ffccbc;
+ * Blue          600: #1e88e5   300: #64b5f6  200: #90caf9  100: #bbdefb;
+ * Cyan          600: #00acc1   300: #4dd0e1  200: #80deea  100: #b2ebf2;
+ * Blue Grey     600: #546e7a   300: #90a4ae  200: #b0bec5  100: #cfd8dc;
  * Purple        600: #8e24aa   300: #ba68c8  200: #ce93d8  100: #e1bee7;
  * Deep Purple   600: #5e35b1   300: #9575cd  200: #b39ddb  100: #d1c4e9;
  * Indigo        600: #3949ab   300: #7986cb  200: #9fa8da  100: #c5cae9;
- * Blue          600: #1e88e5   300: #64b5f6  200: #90caf9  100: #bbdefb;
  * Light Blue    600: #039be5   300: #4fc3f7  200: #81d4fa  100: #b3e5fc;
- * Cyan          600: #00acc1   300: #4dd0e1  200: #80deea  100: #b2ebf2;
- * Teal          600: #00897b   300: #4db6ac  200: #80cbc4  100: #b2dfdb;
+ * Lime          600: #c0ca33   300: #dce775  200: #e6ee9c  100: #f0f4c3;
  * Green         600: #43a047   300: #81c784  200: #a5d6a7  100: #c8e6c9;
  * Light Green   600: #7cb342   300: #aed581  200: #c5e1a5  100: #dcedc8;
- * Lime          600: #c0ca33   300: #dce775  200: #e6ee9c  100: #f0f4c3;
- * Yellow        600: #fdd835   300: #fff176  200: #fff59d  100: #fff9c4;
- * Amber         600: #ffb300   300: #ffd54f  200: #ffe082  100: #ffecb3;
- * Orange        600: #fb8c00   300: #ffb74d  200: #ffcc80  100: #ffe0b2;
- * Deep Orange   600: #f4511e   300: #ff8a65  200: #ffab91  100: #ffccbc;
- * Brown         600: #6d4c41   300: #a1887f  200: #bcaaa4  100: #d7ccc8;
- * Grey          600: #757575   300: #e0e0e0  200: #eeeeee  100: #f5f5f5;
- * Blue Grey     600: #546e7a   300: #90a4ae  200: #b0bec5  100: #cfd8dc;
  */
 
-::shadow #tab-layers { background-color: #ef9a9a; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-profiles { background-color: #b39ddb; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-resources {background-color: #80deea; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-security { background-color: #c5e1a5; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-audits { background-color: #e6ee9c; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-timeline { background-color: #fff59d; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-network { background-color: #ffe082; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-sources { background-color: #ffcc80; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-elements { background-color: #ffab91; color: rgba(0, 0, 0, 0.7); }
-::shadow #tab-console { background-color: #b0bec5; color: rgba(0, 0, 0, 0.7); }
+.tabbed-pane-header-tab-title { color: rgba(0, 0, 0, 0.7); }
+
+::shadow #tab-layers { background-color: #80cbc4 }
+::shadow #tab-profiles { background-color: #ef9a9a }
+::shadow #tab-resources {background-color: #fff59d }
+::shadow #tab-security { background-color: #ffcc80 }
+::shadow #tab-audits { background-color: #eeeeee }
+::shadow #tab-timeline { background-color: #bcaaa4 }
+::shadow #tab-network { background-color: #f48fb1 }
+::shadow #tab-sources { background-color: #ffe082 }
+::shadow #tab-elements { background-color: #ffab91 }
+::shadow #tab-console { background-color: #90caf9 }
+::shadow #tab-heap_profiler { background-color: #80deea }
+::shadow [id$="AuthorSettings"] { background-color: #b0bec5 }
+::shadow [id$="React"] { background-color: #ce93d8 }
+::shadow [id$="Redux"] { background-color: #b39ddb }
+
+.-theme-with-dark-background ::shadow .tabbed-pane-header-tab-title { color: rgba(0, 0, 0, 0.7); }
