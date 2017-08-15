@@ -28,7 +28,8 @@
 ::shadow #tab-profiles { background-color: #ef9a9a }
 ::shadow #tab-resources {background-color: #fff59d }
 ::shadow #tab-security { background-color: #ffcc80 }
-::shadow #tab-audits { background-color: #eeeeee }
+::shadow #tab-audits,
+::shadow #tab-audits2 { background-color: #eeeeee }
 ::shadow #tab-timeline { background-color: #bcaaa4 }
 ::shadow #tab-network { background-color: #f48fb1 }
 ::shadow #tab-sources { background-color: #ffe082 }
